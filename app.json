@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "test-app",
-    "slug": "test-app",
+    "slug": "first-project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f24f01e8-e026-4003-82c4-420b8b65c193"
+      }
+    },
+    "owner": "anaru-stacktrace"
   }
 }
